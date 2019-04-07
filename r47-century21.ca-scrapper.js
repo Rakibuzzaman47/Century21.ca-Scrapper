@@ -68,5 +68,5 @@ for ( n = 0; n < length ; n++ ) {
 var hiddenElement = document.createElement('a');
     hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
     hiddenElement.target = '_blank';
-    hiddenElement.download = 'snm-remax-leads.csv';
+    hiddenElement.download = 'r47-remax-leads.csv';
     hiddenElement.click();  
